@@ -1,0 +1,40 @@
+
+html{
+    display:flex;
+  justify-content:center;
+  }
+  body{
+      background-image: url('	https://wallpaper.dog/large/20353670.jpg');
+  }
+  #title{
+    align-self:flex-top;
+    color:white;
+    border-style: dashed;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size:30px;
+  }
+  #survey-form{
+     display: block;
+      text-align: center;
+    align-content: center;
+    background:white;
+    align-self:flex-center;
+    border-style:bold;
+    width: 100%;
+    border-style:double;
+    font-family: 'Roboto Slab', serif;
+    font-weight: none;
+    font-size:12px;
+  }
+  #submitbtn{
+    font-family: 'Bona Nova', serif;
+  font-size:14px;
+    width:50%;
+      margin-right: auto;
+    font-weight:bold;
+  }
+  arttype{
+       display: block;
+      text-align: left;
+  }

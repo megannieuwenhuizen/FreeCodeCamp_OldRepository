@@ -1,0 +1,64 @@
+<html>
+  <head><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="form.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Roboto+Slab:wght@100;500&display=swap" rel="stylesheet"></head>
+  <header>
+    <h1 id="title">Art Survey Form</h1>
+  </header>
+  <body>
+    <form id="survey-form">
+      <div id="personalinfo">
+        <label for="name" id="name-label">Name:</label><br>
+        <textarea id="name" name="name" rows="1" cols="80">
+         Please enter your name here.
+        </textarea></br>
+       <label for="email" id="email-label">Email:</label><br>
+        <textarea id="email" name="email" rows="1" cols="80">
+         Please enter your email address here.
+      </textarea></br>
+ <!--Validation for HTML5 -->
+         <label for="number" id="number-label">Cellphone Number:</label><br>
+        <textarea id="number" name="number" rows="1" cols="13">
+         Please enter your cellphone number here.
+        </textarea>
+     <!--Validation for non numbers, min and max numbers as well -->
+      </div>
+    <div id="questions">
+    <p>What type of art would you like to see more of?</p>
+    <input type="checkbox" name ="arttype" id="oldcartoon" value="Old Cartoons">
+    <label for="oldcartoon">Old School Cartoons</label><br>
+    <input type="checkbox" name ="arttype" id="moderncartoon" value="Modern Cartoons">
+    <label for="moderncartoon">Modern Cartoons</label><br>
+    <input type="checkbox" name ="arttype" id="anime" value="anime">
+    <label for="anime">Anime Fanart</label><br>
+    <input type="checkbox" name ="arttype" id="cartoonstrips" value="Cartoon Strips">
+    <label for="cartoonstrips">Cartoon Strips</label><br>
+    <input type="checkbox" name ="arttype" id="smokinggalaxies" value="Smoking Galaxies">
+    <label for="smokinggalaxies">Smoking Galaxies</label><br>
+     <input type="checkbox" name ="arttype" id="space" value="Random Cartoons in Space">
+    <label for="space">Random Cartoons in Space</label>
+      <br>
+      <input type="checkbox" name ="arttype" id="commission" value="Commissions">
+    <label for="super">Super Hero Fanart</label>
+    
+    <p>Do you prefer the Ombre backgrounds to the characters, or a normal background with details from the cartoon?</p>
+    <ul>
+       <input type="radio" name ="background" id="details" value="Details">
+    <label for="details">Details of the cartoon</label><br>
+     <input type="radio" name ="arttype" id="ombre" value="Ombre">
+    <label for="ombre">Characters on an ombre gradient</label><br>
+    </ul>
+      <p>Would you be interested in seeing prints of the paintings?</p>  
+      <select name="prints" id="prints">
+      <option value="printsyes">Prints would be awesome!</option>   
+        <option value="printsno">No, I prefer the original paintings.</option> 
+      </select><br><br>
+      <input type="submit"  id="submitbtn"value="Submit Survey"><br><br>
+      </div>
+    </form>
+  </body>
+  <footer>
+    
+  </footer>
+</html>

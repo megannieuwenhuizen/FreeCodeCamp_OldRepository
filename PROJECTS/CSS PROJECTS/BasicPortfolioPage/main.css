@@ -1,0 +1,121 @@
+#html{
+    flex:flex-shrink; 
+}
+header{
+ position:fixed;
+ top:0;
+ width:100%;
+}
+#logo{
+ width: inherit;
+ height:100px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ justify-content:center;
+}
+#nav {
+   margin: 0 auto;
+   display:flex;
+  background-color: #BCC6CC;
+ width: 900px;
+ height: 50px;
+  border-radius: 25px;
+}
+#nav li {
+  text-align:center;
+ display:flex;
+ justify-content: space-around;
+ align-items:center;
+ border-radius: 25px;
+ width: 225px;
+ height: 50px;
+ font-family: mandhor;
+ color: black;
+ list-style: none;
+}
+
+#nav li:hover {
+background-color:black;
+ color: #BCC6CC;  
+}
+.intro{
+text-align:center;
+ font-family: rockwell;
+ color: #BCC6CC;
+ background-color:rgb(47,79,79,0.6);
+ border-radius: 25px;
+ width:1100px;
+}
+
+.welcome-section{
+  height:100vh;
+ text-align:center;
+align-items:top;
+ width: 300px;
+ height:150px;
+ font-size:15px;
+ font-family: rockwell;
+ color: #BCC6CC;
+ background-color:rgb(47,79,79,0.6);
+ border-radius: 25px;
+ 
+}
+.content_main{
+padding-top:120px;
+ display:flex;
+ flex-direction:column;
+ justify-content: space-evenly;
+ 
+}
+.webcontent{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-evenly;
+ 
+}
+.figure{
+ display:flex;
+ justify-content: center;
+ 
+}
+.figure img {
+   max-height: 550px; 
+ justify-content:center;
+}
+.project-title{
+ display:flex-row;
+ width: 600px;
+ text-align:center;
+ 
+}
+
+.profile-link img {
+ max-width:90px;
+ justify-content:left;
+ border-radius:150px;
+ background: silver;
+ opacity:90%;
+}
+
+.planets img {
+     max-width: 180px;
+     object-fit: cover;
+   border-radius:50%;
+}
+.project-title{
+ background: silver;
+ border-radius:40px;
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+ body {
+   background-image: url(' https://github.com/megannieuwenhuizen/Portfolio-Page/blob/assets/WebBackground.jpg?raw=true');
+   
+ object-fit:fill;
+ }
+}
+
+
