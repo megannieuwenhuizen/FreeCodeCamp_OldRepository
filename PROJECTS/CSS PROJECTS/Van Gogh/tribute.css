@@ -7,7 +7,7 @@
   font-size: 40px;
 }
 #title-info{
- font-family: rockwell;
+  font-family: rockwell;
   border-radius: 25px;
   background: #a43232;
   padding: 20px;
@@ -16,23 +16,9 @@
   margin-left: 80px;
   margin-right: 80px;
 }
-#tributeinfo{
+#tributepage{
   margin:auto;
   text-align:center;
-}
-h3{
-  text-align: center;
-  font-family: rockwell;
-  border-radius: 25px;
-  background: #ffc04c;
-  padding: 20px;
-}
-/*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
-
-User Story #9: The img element should be centered within its parent element.*/
-#image{
-  align-self:center;
-  height:500px;
 }
 #tribute-info {
   display:flex;
@@ -42,4 +28,29 @@ User Story #9: The img element should be centered within its parent element.*/
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
+}
+h3{
+  text-align: center;
+  font-family: rockwell;
+  border-radius: 25px;
+  background: #ffc04c;
+  padding: 20px;
+}
+h4{
+  margin:auto;
+  text-align: center;
+  font-family: rockwell;
+  border-radius: 25px;
+  background: #698e98;
+  padding: 20px;
+  width:200px;
+}
+#image{
+  align-self:center;
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
