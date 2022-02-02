@@ -1,0 +1,45 @@
+#title{
+  font-family: rockwell;
+  border-radius: 25px;
+  background: #754760;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+#title-info{
+ font-family: rockwell;
+  border-radius: 25px;
+  background: #a43232;
+  padding: 20px;
+  font-weight: italic;
+  font-size: 20px; 
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#tributeinfo{
+  margin:auto;
+  text-align:center;
+}
+h3{
+  text-align: center;
+  font-family: rockwell;
+  border-radius: 25px;
+  background: #ffc04c;
+  padding: 20px;
+}
+/*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element.*/
+#image{
+  align-self:center;
+  height:500px;
+}
+#tribute-info {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  width:800px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}

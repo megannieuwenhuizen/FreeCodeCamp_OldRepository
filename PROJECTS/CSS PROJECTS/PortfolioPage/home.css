@@ -1,0 +1,89 @@
+    #html{
+         flex:flex-shrink;
+    }
+
+
+    .body{
+    width: 900px;
+      height:700px;
+    }
+
+    .content_main{
+     padding-top:170px;
+      display:flex;
+      flex-direction:column;
+      justify-content: space-evenly;
+
+    }
+    .webcontent{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-evenly;
+
+    }
+    .welcome-section{
+
+      text-align:center;
+    align-items:top;
+      width: 300px;
+      height:150px;
+      font-size:15px;
+      font-family: rockwell;
+      color: #BCC6CC;
+      background-color:rgb(47,79,79,0.6);
+      border-radius: 25px;
+
+    }
+
+    .figure{
+      display:flex;
+      justify-content: center;
+
+    }
+    .figure img {
+        max-height: 450px; 
+      justify-content:center;
+    }
+
+    .planets{
+
+    }
+    .planets img {
+          max-width: 180px;
+          object-fit: cover;
+        border-radius:30%;
+    }
+
+    .gitlogo{
+      background: silver;
+    }
+
+    .gitlogo img {
+      max-width:90px;
+      justify-content:left;
+      border-radius:100px;
+      opacity:90%;
+    }
+
+
+    /* For width 400px and larger: */
+    @media only screen and (min-width: 400px) {
+      body {
+        background-image: url('	https://github.com/megannieuwenhuizen/Portfolio-Page/blob/assets/WebBackground.jpg?raw=true');
+
+      object-fit:fit;
+      }
+    }
+    @media screen 
+      and (min-device-width: 1200px) 
+      and (max-device-width: 1600px) 
+      and (-webkit-min-device-pixel-ratio: 1) { 
+    }
+
+    /* ----------- Retina Screens ----------- */
+    @media screen 
+      and (min-device-width: 1200px) 
+      and (max-device-width: 1600px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (min-resolution: 192dpi) { 
+    }
