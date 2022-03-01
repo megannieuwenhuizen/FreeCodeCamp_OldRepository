@@ -1,0 +1,124 @@
+<html>
+<link rel="stylesheet" href="main.css">
+<nav id="navbar">
+     <header>C# Basics Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#intro-section">Introduction</a></li>
+    <li><a class="nav-link" href="#alreadyknow-section">What you should already know</a></li>
+    <li><a class="nav-link" href="#oop-section">C# and .NET Framework: An Object Oriented Programming Language</a> </li>
+    <li><a class="nav-link" href="#helloworld-section">Hello world</a></li>
+    <li><a class="nav-link" href="#variables-section">Variables</a></li>
+    <li><a class="nav-link" href="#declaringvariables-section">Declaring variables</a></li>
+    <li><a class="nav-link" href="#variablescope-section">Variable scope</a></li>
+    <li><a class="nav-link" href="#globalvariables-section">Global variables</a></li>
+    <li><a class="nav-link" href="#constants-section">Constants</a></li>
+  </ul>
+ </nav>  
+    <main id="main-doc">
+    <section class="main-section">
+        <section class="main-section" id="intro-section">
+        <header>Introduction</header>
+            <article>
+                <p>C# build with .NET(Core) is a cross-platform, open-source,re-implementation of .NET framework which is actively maintained by Microsoft and a community of Github Developers which can be used on both Windows and Linux systems. C# coding is done in an object-oriented fashion. C# is a High Level Language build with a compiler(runs the entire program as input instead of line by line).</p>
+                <p>There are a few benefit to using C# with .NET Core:</p>
+                <ol>
+                    <li>Linux developers can try C# and .NET business without a Windows License</li>
+                    <li>If you would like to create a micro-service but don't want to use Node.js or other javascript -on-the-server frameworks.</li>
+                    <li>Take a pre-existing MVC app or written in .NET framework and run it on a Linux platform.</li>
+                    <li>You can have the "Write once, build anywhere" that Java provides but with the C# platform.</li>
+                </ol>
+                 <p>.NET Core Supports the below:</p>
+                <ol>
+                    <li>Console Applications</li>
+                    <li>Web applications (asp.NET, Webapps, MVC)</li>
+                    <li>Class Libraries</li>
+                    <li>Unit Tests</li>
+                </ol>
+            </article>
+         </section>
+        <section class="main-section" id="alreadyknow-section">
+        <header>What you should already know</header>
+            <article>
+                <p>The basics of Objct Oriented Programming</p>
+                <ul>
+                    <li>How methods work</li>
+                    <li>How to decalre variables</li>
+                    <li>String manipulation</li>
+                    <li>Parsing and Try Catches</li>
+                </ul>
+            </article>
+            </section>
+         <section class="main-section" id="oop-section">
+        <header>C# and .NET Framework: An Object Oriented Programming Language</header>
+             <article>
+                 <p>An Object Oriented language stipulates that the  variable declarations and inputs are declared in the main method.</p>
+                 <p>Any processing of the actually varaibles are done in 'Methods', A method is a code block that contains a series of statements. A program causes the statements to be executed by calling the method and specifying any required method arguments. In C#, every executed instruction is performed in the context of a method. </p>
+                 <p>Examples of this include declaring number variables in the main subset of the program, and having methods declared to calculate the sum, multiplications and division of manipulating those numbers.</p>
+             </article>
+        </section>
+        <section class="main-section" id="helloworld-section">
+        <header>Hello World</header>
+            <article>
+                <p>A Hello World program is the first program you create using any language. It allows you to use the basic statements to output a value of "Hello World"</p>
+                <p>Console.writeLine() is a statement that prints whatever is in the Brackets </p>
+                <p> using System;             /* This would be your declaration to import the System class*/<br>
+                    namespace HelloWorld {    /*The name of the program, namespace would be declaring the project*/<br>
+                        class Program {       /*The class declaration starts your program encapsulation*/<br>
+                            static void Main(String[] args) {/*This is your main method in every program*/<br>
+                                Console.WriteLine("Hello, World!");      /*This is your code line, the first use of using code to output a result*/<br>
+                            }  }   }</p>
+            </article>
+        </section>
+        <section class="main-section" id="variables-section">
+        <header>Variables</header>
+            <article>
+                <p>Variables: A variable is a name given to a storage that our program can manipulate.</p>
+                
+            </article>
+        </section>
+        <section class="main-section" id="declaringvariables-section">
+        <header>Declaring variables</header>
+            <article>
+                <p>When declaring a variable you will always:</p>
+                <ul>
+                    <li> First word is the the data type of your variable (example number, string, real, boolean)</li>
+                    <li>Your second word would be the name of your variable, variable naming has a few conventions, but my preffered declaration is Camel Case, where your first word is lower case and the other words start with an Upper Case letter. There are no spaces in the variable name. (example: firstNum, secondNum)</li>
+                    <li>You will then initiate your variable, "=" with the relevent value for that variable type.</li>
+                    </ul>
+                        <p>Example: int x=1;</p>
+                        <p>String name="John";</p>
+                
+            </article>
+        </section>
+        <section class="main-section" id="variablescope-section">   
+        <header>Variable scope</header>
+            <article>
+                <p>The different types of variables are as follows:</p>
+                <ul>
+                    <li>int: used to store integer numbers (eg. 3 or 2000)</li>
+                    <li>float: used to store floating point numbers (eg. 3.5 or 9.8)</li>
+                    <li>double: used to store floating point numbers (eg. 3.567 or 5.909)</li>
+                    <li>decimal: Used to store monetary values (R200,00 or R59,99)</li>
+                    <li>String: Used to store Text "John", "Tom"</li>
+                    <li>bool: a boolean value is either true or false (0,1)</li>
+                    <li>char: Stores one character or letter. Eg: "A", "C"</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="globalvariables-section">
+        <header>Global variables</header>
+            <article>
+                <p>Global variables are variables that can be used within the entire program. C# does not support global variables, however this can be catered too via using a static class where you declare the static variables.</p>
+            </article>
+        </section>
+        <section class="main-section" id="constants-section">
+        <header>Constants</header>
+            <article>
+                <p>A constant variable is a variable thats value will never change. A good example of this is Pi or Gravity, these values will never change.</p>
+            </article>
+       
+        </section>
+        
+    </section>
+    </main>
+</html>
